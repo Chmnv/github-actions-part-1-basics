@@ -32,6 +32,9 @@ jobs:
     
     - name: List current folder
       run : ls -la
+
+    - name: Show path
+      run: pwd
    
     - name: Git clone my repo
       uses: actions/checkout@v1   
